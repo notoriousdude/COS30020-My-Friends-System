@@ -1,8 +1,13 @@
 <?php
-    $host = "feenix-mariadb.swin.edu.au";
-    $username = "s104180485";
-    $password = "220104";
-    $dbname = "s104180485_db";
+    // $host = "feenix-mariadb.swin.edu.au";
+    // $username = "";
+    // $password = "";
+    // $dbname = "";
+
+    $host = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "test";
 
     // Create connection
     $conn = new mysqli($host, $username, $password, $dbname);
