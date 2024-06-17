@@ -1,0 +1,238 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-header {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* NAVIGATION BAR */
+.main-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 90px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #adadad;
+    transition: 0.3s;
+}
+
+/* highlight the active page */
+.nav-link.active {
+    color: #adadad;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.f1, .f2 {
+    display: inline-block;
+    width: 50%;
+}
+
+.f1 i {
+    margin-right: 5px;
+}
+
+/* INDEX PAGE */
+.info {
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.email {
+    color: #333;
+    text-decoration: none;
+}
+
+.declaration {
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* SIGN UP & LOGIN PAGES  */
+
+.sub-header {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.registration-form {
+    width: 100%;
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-submit, .form-reset {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #9c9fa8; 
+    color: white; 
+    border: none;
+    cursor: pointer;
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.form-submit:hover, .form-reset:hover {
+    background-color: #767c8a; 
+}
+
+.home-link, .login-link {
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* FRIENDS LIST PAGE */
+
+.friend-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 50%;
+}
+.friend-table th, .friend-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    border: none;
+    color: white;
+    background-color: #808580;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #606360;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 600px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    color: white;
+    background-color: #4c728e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    height: 35px;
+}
+
+.button1:hover {
+    background-color: #3a5c74;
+}
+
+/* ABOUT PAGE */
+.about {
+    text-align: center;
+}
+
+.about p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.about h3 {
+    color: #444;
+    margin: 40px 0 20px 0;
+}
+
+.about figure {
+    margin: 20px 0;
+}
+
+/* FRIEND ADD PAGE */
+.pagination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    border: 1px solid #a7a6a6;
+    cursor: pointer;
+    margin-right: 20px;
+}
